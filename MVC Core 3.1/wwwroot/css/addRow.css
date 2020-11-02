@@ -23,10 +23,11 @@ button {
 body {
     height: 100%;
     margin: 0;
-    font-family: sans-serif;
+    font-family: TedescaLamont;
     font-weight: 100;
     background-image: url(/image/29697-svet-liniya-uzor-atmosfera-krug-1920x1080.jpg);
     color: white;
+    font-size: 20px;
 }
 .btn-link {
     padding: 3px 14px;
@@ -41,7 +42,7 @@ body {
     color: white;
     display: block;
     width: auto;
-    font-family: Open Sans, Sans-serif;
+    font-family: TedescaLamont;
     border-radius: 5px;
     font-size: 13px;
     letter-spacing: 4px;
@@ -51,6 +52,7 @@ body {
     margin: 20px auto;
     text-align: center;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .btn-link:hover {
@@ -86,5 +88,10 @@ th {
 }
 .name-table{
     text-align:center;
+}
+h3 {
+    color: white;
+    font-family: TedescaLamont;
+    font-size: 50px;
 }
 
