@@ -1,0 +1,22 @@
+﻿@model Phone
+@{
+    ViewData["Title"] = "AddRow";
+    Layout = null;
+}
+<link rel="stylesheet" type="text/css" href="~/css/addRow.css" />
+<h3>Смартфон</h3>
+<form action="/home/addrow" method="post">
+    <div class="form-group">
+        <label>Name</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Company</label>
+        @Html.TextBoxFor(m => m.Company, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+</form>

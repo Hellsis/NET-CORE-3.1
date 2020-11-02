@@ -1,0 +1,90 @@
+﻿.field {
+    clear: both;
+    text-align: center;
+    line-height: 25px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+input {
+    padding: 8px;
+    margin: 12px;
+    width: 200px;
+}
+.main {
+    float: left
+}
+button {
+    padding: 8px;
+    margin: 12px;
+    width: 200px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    background-image: url(/image/29697-svet-liniya-uzor-atmosfera-krug-1920x1080.jpg);
+    color: white;
+}
+.btn-link {
+    padding: 3px 14px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.701961) 0px 5px 12px;
+    -webkit-transform-origin: 50% 1px;
+    -webkit-transition: all 0.15s ease-in-out;
+    background: #161616;
+    border-color: rgba(255, 255, 255, 0.027451) #FF8C39 rgba(255, 255, 255, 0.027451) rgba(255, 255, 255, 0.027451);
+    border-style: solid;
+    border-width: 1px 4px 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.701961) 0px 5px 12px;
+    color: white;
+    display: block;
+    width: auto;
+    font-family: Open Sans, Sans-serif;
+    border-radius: 5px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-shadow: rgb(0, 0, 0) 0px 1px 1px;
+    line-height: 30px;
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    border-width: 1px 7px 1px 1px;
+}
+
+.btn-link:active {
+    -webkit-box-shadow: inset rgba(0, 0, 0, 0.701961) 0px 7px 12px,rgba(0, 0, 0, 0.701961) 0px 2px 12px;
+    text-shadow: rgb(0, 0, 0) 0px -2px 1px;
+    margin-top: 1px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+}
+th {
+    text-align: left;
+}
+.name-table{
+    text-align:center;
+}
+
