@@ -10,26 +10,30 @@
     <title>Магазин смартфонов</title>
 </head>
 <body>
+    <h3 class="name-table">Смартфоны</h3>
     <div class="container">
-        <h3 class="name-table">Смартфоны</h3>
-        <table>
-            <tr>
-                <td>Модель</td>
-                <td>Производитель</td>
-                <td>Цена</td>
-                <td></td>
-            </tr>
-            @foreach (var phone in Model)
-            {
+        <table >
+            <tbody class="scroll">
                 <tr>
-                    <td>@phone.Name</td>
-                    <td>@phone.Company</td>
-                    <td>@phone.Price</td>
-                    <td><button class="btn-link" onclick="location.href='/Home/addRow'">Добавить</button></td>
-                    <td><button class="btn-link" onclick="location.href='/Home/updaterow'">Изменить</button></td>
-                    <td><button class="btn-link" onclick="location.href='/Home/deleterow'">Удалить</button></td>
+                    <td>Модель</td>
+                    <td>Производитель</td>
+                    <td>Цена</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
-            }
+                @foreach (var phone in Model)
+                 {
+                    <tr>
+                         <td>@phone.Name</td>
+                         <td>@phone.Company</td>
+                         <td>@phone.Price</td>
+                         <td><button class="btn-link" onclick="location.href='/Home/addRow'">Добавить</button></td>
+                         <td><button class="btn-link" onclick="location.href='/Home/updaterow'">Изменить</button></td>
+                         <td><button class="btn-link" onclick="location.href='/Home/deleterow'">Удалить</button></td>
+                    </tr>
+                 }
+            </tbody>
         </table>
     </div>
 </body>
