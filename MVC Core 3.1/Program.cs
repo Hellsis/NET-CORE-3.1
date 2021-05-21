@@ -11,6 +11,7 @@ using MVC_Core_3._1.Models;
 
 namespace MVC_Core_3._1
 {
+    const a
     public class Program
     {
         public static void Main(string[] args)
